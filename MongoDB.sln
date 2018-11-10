@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MongoDB", "MongoDB\MongoDB.csproj", "{D3D6D2C9-5DDF-45B5-BEA3-F914F347AB1C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MongoDB.Database", "MongoDB.Database\MongoDB.Database.csproj", "{3E5C32B2-4CB5-4766-99CC-8335278BDAB0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MongoDB.Tests", "MongoDB.Tests\MongoDB.Tests.csproj", "{D3ABB0E2-03B4-462D-AD55-332F31034C76}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3D6D2C9-5DDF-45B5-BEA3-F914F347AB1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3D6D2C9-5DDF-45B5-BEA3-F914F347AB1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3D6D2C9-5DDF-45B5-BEA3-F914F347AB1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3D6D2C9-5DDF-45B5-BEA3-F914F347AB1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E5C32B2-4CB5-4766-99CC-8335278BDAB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E5C32B2-4CB5-4766-99CC-8335278BDAB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E5C32B2-4CB5-4766-99CC-8335278BDAB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E5C32B2-4CB5-4766-99CC-8335278BDAB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3ABB0E2-03B4-462D-AD55-332F31034C76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3ABB0E2-03B4-462D-AD55-332F31034C76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3ABB0E2-03B4-462D-AD55-332F31034C76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3ABB0E2-03B4-462D-AD55-332F31034C76}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3FA92C75-8257-45F8-9E76-99A70247F630}
+	EndGlobalSection
+EndGlobal
